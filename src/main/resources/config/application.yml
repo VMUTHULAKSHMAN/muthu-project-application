@@ -119,6 +119,7 @@ spring:
       hibernate.generate_statistics: false
       # modify batch size as necessary
       hibernate.jdbc.batch_size: 25
+      hibernate.jdbc.lob.non_contextual_creation = true
       hibernate.order_inserts: true
       hibernate.order_updates: true
       hibernate.query.fail_on_pagination_over_collection_fetch: true
