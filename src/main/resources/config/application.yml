@@ -102,6 +102,9 @@ spring:
         - api-docs
         # Uncomment to activate TLS for the dev profile
         #- tls
+  datasource:
+     hikari:
+        validationTimeout: 300000
   jmx:
     enabled: false
   data:
